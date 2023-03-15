@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build & Run",
+			"type": "shell",
+			"command": "ninja -C ${workspaceFolder}/build && ${workspaceFolder}/build/src/OpenGLGP",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"presentation": {
+				"reveal": "silent",
+				"panel": "shared"
+			},
+			"problemMatcher": []
+		}
+	]
+  }
